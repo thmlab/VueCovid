@@ -23,4 +23,4 @@ Vue CLI 的包名称由 vue-cli 改成了 @vue/cli。 如果你已经全局安�
 2. 启动服务器 <br>
    **$ npm run serve** <br>
 
-3. 打开浏览器输入 http://localhost:8080/cov.html <br>
+3. 打开浏览器输入 http://localhost:8080/<br>
