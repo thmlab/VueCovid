@@ -1,5 +1,4 @@
 <template>
-  <div class="container">
     <div class="about">
     <h1 class="abouth1">国内新型冠状病毒实时数据</h1>
     <div class="BOX">
@@ -10,11 +9,11 @@
 
     <div class="Tab">
       <div id="Tabs" class="Tab-header">
-        <div class="TabOn" @click="cur=0" :class="{active:cur==1}">
+        <div class="TabOn" @click="cur=0" :class="{active:cur==0}">
           <h3>国内疫情</h3>
         </div>
 
-        <div class="TabOff" @click="cur=1" :class="{active:cur==0}">
+        <div class="TabOff" @click="cur=1" :class="{active:cur==1}">
           <h3>国外疫情</h3>
         </div>
       </div>
@@ -52,7 +51,6 @@
         
       </div>
     </div>
-  </div>
   </div>
 </template>
 

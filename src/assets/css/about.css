@@ -2,166 +2,164 @@
       margin: 0;
       padding: 0;
     }
-    .SSS{
-      width: 100%;
-    }
-    .Tab {
-      width: 50%;
-      margin: 22px auto;
-      border-radius: 15px;
-      /* 圆角边 */
-      position:relative;
-      z-index: 10;
-      box-shadow: 5px 5px 5px 1px;
-      transition: 1s ease-in-out;
-    }
-  
-    .Tab-header {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-  
-    .Tab-header div {
-      text-align: center;
-      flex: 1;
-      padding: 10px 0;
-    }
-  
-    .TabOff {
-      background: white;
-      border-radius: 15px;
-    }
-  
-    .TabOn {
-      background-color: white;
-      border-radius: 15px;
-    }
-  
-    .Text-box {
-      width: auto;
-      padding: 10px 15px;
-      color: black;
-      position: relative;
-      height: 250px;
-      /* 相对定位 */
-    }
-  
-    .Text-box .Text {
-      height: 95%;
-      position: absolute;
-      width: 100%;
-      left: 0;
-      transition: 1s ease-out;
-      opacity: 0;
-    }
-  
-    .Text.active {
-      background-color: azure;
-      position: absolute;
-      width: 100%;
-      border-radius: 15px;
-      z-index: 99;
-      opacity: 1;
-      transition: 0.7s ease-in-out;
-    }
-    .acs{
-      background: red;
-    }
-    table {
-      width: 100%;
-      height: 40px;
-    }
-    td {
-      width: 23%;
-      padding: 10px 2%;
-      font-weight:600;
-      text-align: center;
-      border-radius: 15px;
-    }
-    tr:nth-child(1)>td:nth-child(1){
-      color: red;
-    }
-    tr:nth-child(1)>td:nth-child(2){
-      color: #77b634;
-    }
-    tr:nth-child(1)>td:nth-child(3){
-      color:orangered;
-    }
-    tr:nth-child(1)>td:nth-child(4){
-      color: #ccc;
-    }
-    tr:nth-child(3)>td:nth-child(1){
-      color: red;
-    }
-    tr:nth-child(3)>td:nth-child(2){
-      color: #77b634;
-    }
-    tr:nth-child(3)>td:nth-child(3){
-      color:orangered;
-    }
-    tr:nth-child(3)>td:nth-child(4){
-      color: #ccc;
-    }
-    th {
-      padding: 5px 20px;
-     
-      text-align: center;
-      border-radius: 15px;
-    }
-    .p {
-      color: black;
-    }
-    .abouth1 {
-      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-      font-weight: 600;
-      font-size: 30px;
-      text-shadow: 10px 10px 10px grey;
-    }
     .BOX {
-      width: 50%;
+      width: 60%;
       margin: 0 auto;
-      height: 250px;
+      height: 0;
+      padding-bottom: 25%;
       position: relative;
-      transition: 1s ease-in-out;
+
     }
+
     .box-1s {
       width: 100%;
       height: 110%;
       bottom: -50px;
       position: absolute;
-      z-index: 9;
+    }
+
+    .Tab {
+      width: 55%;
+      margin: 2% auto;
+      border-radius: 8px;
+      position:relative;
+      box-shadow: 0 2px 5px 0;
+    }
+  
+    .Tab-header {
+      display: flex;
+    }
+  
+    .Tab-header div {
+      text-align: center;
+      flex: 1;
+      padding: 2% 0;
+    }
+  
+    .TabOff {
+      background:#ccc;
+      color: #222222;
+      border-radius: 15px;
+    }
+  
+    .TabOn {
+      background-color: #ccc;
+      color: #222222;
+      border-radius: 15px;
+    }
+  
+    .Text-box {
+      color: black;
+      background-color: azure;
+      position: relative;
+      padding-bottom: 45%;
+      height: 0;
+      border-radius: 8px;
+    }   
+    .Text.active {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    .active{
+      background-color: #ffffff;
+      color: #FF7800;
+    }
+
+    td {
+      width: 25%;
+      padding: 2.3% 1%;
+      font-weight:600;
+      text-align: center;
+      border-radius: 8px;
+      color: black;
+    }
+
+    tr:nth-child(2)>td:nth-child(1){
+      color: #b11101;
+    }
+    tr:nth-child(2)>td:nth-child(2){
+      color: #77b634;
+    }
+    tr:nth-child(2)>td:nth-child(3){
+      color: #f99817;;
+    }
+    tr:nth-child(2)>td:nth-child(4){
+      color: #8d8faa;
+    }
+    tr:nth-child(4)>td:nth-child(1){
+      color: #e25d4f;
+    }
+    tr:nth-child(4)>td:nth-child(2){
+      color: #e25d4f;
+    }
+    tr:nth-child(4)>td:nth-child(3){
+      color:#b11101;
+    }
+    tr:nth-child(4)>td:nth-child(4){
+      color: #873686;
+    }
+
+    .abouth1 {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-weight: 600;
+      text-shadow: 10px 10px 10px grey;
     }
     
     .time {
+      text-align: right;
       color: grey;
-      text-indent: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      padding-right: 5%;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     }
-    .Text {
-      background-color: floralwhite;
-    }
-    .globaltable {
-      margin-top: 30px;
-    }
+
     .aboutimg {
-      border-radius: 15px;
+      border-radius: 8px;
       width: 100%;
       height: 100%;
-    }
-  
-    .active{
-      background-color: #ccc;
-      color:orange;
     }
 
     @media screen and (max-width: 1024px){
       .BOX{
+        width: 70%;
+        height: 0;
+        padding-bottom: 30%;
+        transition: 1s ease-in-out;
+      }
+      .Tab{
+        width: 65%;
+        transition: 1s ease-in-out;
+      }
+
+    }
+
+
+    @media screen and (max-width: 650px){
+      .BOX{
         width: 100%;
+        height: 0;
+        padding-bottom: 50%;
         transition: 1s ease-in-out;
       }
       .Tab{
         width: 100%;
+        height: 0;
+        padding-bottom: 100%;
         transition: 1s ease-in-out;
       }
+      .Text-box {
+        color: black;
+        background-color: white;
+        position: relative;
+        padding-bottom: 45%;
+        height: 0;
+        border-radius: 8px;
+      }   
+
+
     }
