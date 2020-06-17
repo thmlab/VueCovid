@@ -1,5 +1,5 @@
 运行前需要安装的包：<br>
-1. Vue-Cli
+1. Vue-Cli4
 2. node.js
 3. express
 
@@ -8,6 +8,11 @@ requrest: **$ pip install requests** <br>
 web:      **$ pip install web.py** <br>
 node.js:  **$ yum install -y nodejs** (CentOs) https://nodejs.org/zh-cn/download/ (Windows & MacOs) <br>
 Express:  **$ npm install express --save** <br>
+
+Vue-Cli: **$ npm install -g @vue/cli # OR $ yarn global add @vue/cli** <br>
+
+Vue CLI 的包名称由 vue-cli 改成了 @vue/cli。 如果你已经全局安装了旧版本的 vue-cli (1.x 或 2.x)，你需要先通过 **$ npm uninstall vue-cli -g** 或 **$ yarn global remove vue-cli** 卸载它。
+
 
 安装完毕后：<br>
 1. 安装项目模组<br>
