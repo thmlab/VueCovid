@@ -11,10 +11,12 @@ Express:  **$ npm install express --save** <br>
 
 Vue-Cli: **$ npm install -g @vue/cli** 或者 **$ yarn global add @vue/cli** <br>
 
-Vue CLI 的包名称由 vue-cli 改成了 @vue/cli。 如果你已经全局安装了旧版本的 vue-cli (1.x 或 2.x)，你需要先通过 **$ npm uninstall vue-cli -g** 或 **$ yarn global remove vue-cli** 卸载它。
+Vue CLI 的包名称由 vue-cli 改成了 @vue/cli。 如果你已经全局安装了旧版本的 vue-cli (1.x 或 2.x)，你需要先通过 **$ npm uninstall vue-cli -g** 或 **$ yarn global remove vue-cli** 卸载它。<br>
 
 
 安装完毕后：<br>
+1. 进入目录
+   **$ cd VueCovid** <br>
 1. 安装项目模组<br>
    **$ npm install** <br>
 
