@@ -42,13 +42,13 @@
     }
   
     .TabOff {
-      background:#ccc;
+      background-color: aliceblue;
       color: #222222;
       border-radius: 15px;
     }
   
     .TabOn {
-      background-color: #ccc;
+      background-color: aliceblue;
       color: #222222;
       border-radius: 15px;
     }
@@ -118,7 +118,9 @@
     
     .time {
       text-align: right;
-      color: grey;
+      font-size: 15px;
+      line-height: 20px;
+      color: #666;
       padding-right: 5%;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     }
@@ -174,6 +176,11 @@
         padding-bottom: 45%;
         height: 0;
         border-radius: 8px;
+      }
+      .abouth1 {
+        font-weight: 400;
+        text-shadow: 10px 10px 10px grey;
+        font-size: 25px;
       }   
 
 

@@ -10,7 +10,6 @@
       数据爬虫于
       <a href="http://sa.sogou.com/new-weball/page/sgs/epidemic" target="_blank" rel="noopener">搜狗疫情实时动态</a>.
     </p>
-
   </div>
 </template>
 
