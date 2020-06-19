@@ -68,7 +68,7 @@ export default {
   },
   mounted() {
     this.$axios
-      .get("http://120.77.243.252:8888/")
+      .get("http://data.daiweijian.cn/")
       .then(response => (this.info = response))
       .catch(function(error) {
         // 请求失败处理

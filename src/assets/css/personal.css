@@ -1,0 +1,15 @@
+h2{
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;
+}
+
+.title{
+    text-align: center;
+    color: black;
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+.basicInf{
+    padding-bottom: 20px;
+}
