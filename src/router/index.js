@@ -16,6 +16,11 @@ Vue.use(VueRouter)
     component: () => import('../views/Personal.vue')
   },
   {
+    path: '/baoxiao',
+    name: 'Baoxiao',
+    component: () => import('../views/Baoxiao.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting

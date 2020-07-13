@@ -2,11 +2,9 @@
   <div class="home">
     <div class="container">
       
-      <h1>戴伟健的个人网站</h1>
-      
       <br>
       <h4>
-        此页面正处于刚建成阶段，日后会添加各种内容。个人简介会添加到个人信息页面。<br>
+        此页面正处于刚建成阶段，日后会添加各种内容。<br>
         目前已经完成的一个项目是疫情数据。
       </h4>
       <p>
@@ -17,18 +15,6 @@
     </div>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
-// export default {
-//   name: 'Home',
-//   components: {
-//     HelloWorld
-//   }
-// }
-</script>
 
 <style>
 @import "../assets/css/home.css";
