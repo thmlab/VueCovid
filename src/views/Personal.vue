@@ -12,7 +12,7 @@
                 <div class="w-100"></div>
                 <li>大三 / CS&AI / <i class="zi zi_school" zico="学校黑"></i> 爱丁堡大学</li>
                 <div class="w-100"></div>
-                <li><i class="zi zi_www" zico="网络"></i>个人网站: <a href="http://www.daiweijian.cn">http://www.daiweijian.cn</a></li>
+                <li><i class="zi zi_www" zico="网络"></i>个人网站: <a href="https://www.daiweijian.cn">https://www.daiweijian.cn</a></li>
                 <div class="w-100"></div>
                 <li><i class="zi zi_tmGithubsquare" zico="githubsquare"></i>Github: <a href="https://github.com/DavidJim1013">https://github.com/DavidJim1013</a></li>
             </ul>
@@ -25,9 +25,9 @@
             <h2>实习经历</h2>
             <h5>2020年6月～2020年9月</h5>
             <h6>项目一：新型冠状病毒数据</h6>
-            <p>运用已学到的python编程知识，从搜狗疫情抓取数据作为后台。自学基本页面格式，Vue Cli，Bootstrap，把后台取到的数据重新排版输出出来。<i class="zi zi_bingdu" zico="病毒"></i><a href="http://www.daiweijian.cn/#/about">转跳页面</a> </p>
+            <p>运用已学到的python编程知识，从搜狗疫情抓取数据作为后台。自学基本页面格式，Vue Cli，Bootstrap，把后台取到的数据重新排版输出出来。<i class="zi zi_bingdu" zico="病毒"></i><a href="https://www.daiweijian.cn/#/about">转跳页面</a> </p>
             <h6>项目二：报销系统</h6>
-            <p>自学并巩固JavaScript，自学MongoDB数据库，从零开始制作出来一个报销系统。共两个页面，<i class="zi zi_share" zico="转发粗黑"></i><a href="http://baoxiao.daiweijian.cn/">职员报销页面</a>和<i class="zi zi_share" zico="转发粗黑"><a href="http://baoxiao.daiweijian.cn/table.html">财务审核页面</a></i>。报销页面可以通过报销单号来查询此报销单的报销状态，并且可以新增报销和上传凭证。审核页面可以看到所有报销单，且可以看到相对应的报销凭证。审核页面具有筛选，分页功能。</p>
+            <p>自学并巩固JavaScript，自学MongoDB数据库，从零开始制作出来一个报销系统。共两个页面，<i class="zi zi_share" zico="转发粗黑"></i><a href="https://baoxiao.daiweijian.cn/">职员报销页面</a>和<i class="zi zi_share" zico="转发粗黑"><a href="https://baoxiao.daiweijian.cn/table.html">财务审核页面</a></i>。报销页面可以通过报销单号来查询此报销单的报销状态，并且可以新增报销和上传凭证。审核页面可以看到所有报销单，且可以看到相对应的报销凭证。审核页面具有筛选，分页功能。</p>
             <h6>项目三：个人网站</h6>
             <p>使用学生服务器。自己搭建起来的环境，并使用nginx转发设置访问域名。</p>
             <h2>其他经历</h2>
